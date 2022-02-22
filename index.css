@@ -1,29 +1,49 @@
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
-    background-image: url("images/table.png");
+    background-image: url("images/cards.jpg");
     background-size: cover;
     font-weight: bold;
-    color: white;
+    color: #016f32;
     text-align: center;
+    margin-top: 10em;
+}
+
+.container{
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
 }
 
 h1 {
     color: goldenrod;
 }
 
+
 #message-el {
     font-style: italic;
 }
 
 button {
+    text-align: center;
     color: #016f32;
     width: 150px;
     background: goldenrod;
-    padding-top: 5px;
-    padding-bottom: 5px;
+    padding-top: .4em;
+    padding-bottom: .4em;
     font-weight: bold;
     border: none;
-    border-radius: 2px;
-    margin-bottom: 2px;
-    margin-top: 2px;
+    border-radius: 6px;
+    margin-bottom: .5rem;
+    margin-top: .25rem;
+    margin-left: 1em;
+    margin-right: 1em;
+    transform: scale(1);
+    transition: transform 250ms;
+}
+
+button:hover{
+    transform: scale(1.2);
+    background-color: #016f32;
+    color: goldenrod;
 }
