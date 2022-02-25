@@ -21,7 +21,7 @@ The widely played game across the world. This project is mainly focused on apply
 
 ## Screenshot
 
-![](./images/screenshot.png)
+![](./images/blackjackgame.jpg)
 
 ## Technologies I Used
 * Semantic HTML5
